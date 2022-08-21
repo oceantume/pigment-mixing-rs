@@ -11,8 +11,8 @@ pub fn main() {
         .static_flag(true)
         .flag("-std=c++11")
         //.flag("-Wno-sign-compare")
-        .flag("-Wno-unused-function")
-        .flag("-Wno-unused-parameter")
+        //.flag("-Wno-unused-function")
+        //.flag("-Wno-unused-parameter")
         .file("mixbox/mixbox.cpp")
         .compile("mixbox");
 
